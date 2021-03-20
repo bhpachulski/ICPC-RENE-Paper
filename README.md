@@ -1,17 +1,17 @@
 # What is the Vocabulary of Flaky Tests? An Extended Replication
 
-Bruno Henrique Pachulski Camara <sup>1</sup>, <sup>2</sup>,
-Marco Aure ́lio Graciotto Silva <sup>3</sup>,
-Andre T. Endo <sup>4</sup>,
-Silvia Regina Vergilio <sup>2</sup>.
+Bruno Henrique Pachulski Camara <sup>1</sup>, <sup>2</sup>, <br />
+Marco Aure ́lio Graciotto Silva <sup>3</sup>, <br />
+Andre T. Endo <sup>4</sup>, <br />
+Silvia Regina Vergilio <sup>2</sup>. <br />
 
-<sup>1</sup> Centro Universitário Integrado, Campo Mourão, PR, Brazil
-<sup>2</sup> Department of Computer Science, Federal University of Parana ́, Curitiba, PR, Brazil
-&nbsp; &nbsp; &nbsp; bhpachulski@ufpr.br, silvia@inf.ufpr.br
-<sup>3</sup> Department of Computing, Federal University of Technology - Parana ́, Campo Mourão, PR, Brazil
-&nbsp; &nbsp; &nbsp; magsilva@utfpr.edu.br
-<sup>4</sup> Department of Computing, Federal University of Technology - Parana ́, Cornélio Procópio, PR, Brazil
-&nbsp; &nbsp; &nbsp; andreendo@utfpr.edu.br
+<sup>1</sup> Centro Universitário Integrado, Campo Mourão, PR, Brazil <br />
+<sup>2</sup> Department of Computer Science, Federal University of Parana ́, Curitiba, PR, Brazil <br />
+&nbsp; &nbsp; &nbsp; bhpachulski@ufpr.br, silvia@inf.ufpr.br <br />
+<sup>3</sup> Department of Computing, Federal University of Technology - Parana ́, Campo Mourão, PR, Brazil <br />
+&nbsp; &nbsp; &nbsp; magsilva@utfpr.edu.br <br />
+<sup>4</sup> Department of Computing, Federal University of Technology - Parana ́, Cornélio Procópio, PR, Brazil <br />
+&nbsp; &nbsp; &nbsp; andreendo@utfpr.edu.br <br />
 
 This paper has been submitted for publication in *ICPC 2021 - Replications and Negative Results (RENE)*.
 
