@@ -1,0 +1,9 @@
+Validation Dataset,Vocabulary,Training Dataset,Classifier,Precision,Recall,F1-Score,Support,Accuracy,AUC,MCC,VP,FN
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,naiveBayes,1.0,0.09375,0.17142857142857143,256,0.09375,,0.0,,24 232
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,knn,1.0,0.0859375,0.15827338129496402,256,0.0859375,,0.0,,22 234
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,logisticRegression,1.0,0.3984375,0.5698324022346368,256,0.3984375,,0.0,102,154
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,perceptron,1.0,0.37890625,0.5495750708215298,256,0.37890625,,0.0,,97 159
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,decisionTree,1.0,0.15625,0.2702702702702703,256,0.15625,,0.0,,40 216
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,smo,1.0,0.11328125,0.20350877192982456,256,0.11328125,,0.0,,29 227
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,randomForest,1.0,0.015625,0.03076923076923077,256,0.015625,,0.0,, 4 252
+../../datasets/flakies_rq_22.csv,../../RQ 1/RQ 1.1/vocabulary/MSR4FlakinessOriginal.dict,,lda,1.0,0.5078125,0.6735751295336787,256,0.5078125,,0.0,130,126

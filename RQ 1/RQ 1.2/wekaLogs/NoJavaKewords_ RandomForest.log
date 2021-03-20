@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     _home_supun_Documents_wekafiles_dataset2_Tokens_arff_docs__home_supun_Documents_wekafiles_dataset2_LOC-weka.filters.unsupervised.attribute.Remove-R2_java_keywords.arff-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3-59-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.SnowballStemmer-stopwords-handlerweka.core.stopwords.MultiStopwords-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    2804
+Attributes:   1552
+              [list of attributes omitted]
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 11.89 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.13 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         528               94.1176 %
+Incorrectly Classified Instances        33                5.8824 %
+Kappa statistic                          0.8825
+Mean absolute error                      0.1642
+Root mean squared error                  0.2376
+Relative absolute error                 32.8401 %
+Root relative squared error             47.5109 %
+Total Number of Instances              561     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.986    0.102    0.904      0.986    0.943      0.886    0.984     0.977     Non_Flakey
+                 0.898    0.014    0.985      0.898    0.939      0.886    0.984     0.987     Flakey
+Weighted Avg.    0.941    0.058    0.945      0.941    0.941      0.886    0.984     0.982     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 273   4 |   a = Non_Flakey
+  29 255 |   b = Flakey
+
+
