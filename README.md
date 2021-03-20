@@ -1,2 +1,1 @@
-# ICPC-RENE-Paper
-What is the Vocabulary of Flaky Tests? An Extended Replication
+This experimental package is organized by research questions. For each of the questions, some files can be executed to obtain the data that are presented in the paper.
