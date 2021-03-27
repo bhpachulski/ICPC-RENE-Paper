@@ -1,4 +1,4 @@
-# What is the Vocabulary of Flaky Tests? An Extended Replication
+# [What is the Vocabulary of Flaky Tests? An Extended Replication] (https://arxiv.org/abs/2103.12670)
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4641559.svg)](https://doi.org/10.5281/zenodo.4641559)
 
