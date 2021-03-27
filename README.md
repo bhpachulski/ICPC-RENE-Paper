@@ -1,6 +1,6 @@
 # [What is the Vocabulary of Flaky Tests? An Extended Replication](https://arxiv.org/abs/2103.12670)
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4641559.svg)](https://doi.org/10.5281/zenodo.4641559) [![arXiv](https://img.shields.io/badge/arXiv-<INDEX>-<COLOR>.svg)](https://arxiv.org/abs/2103.12670)
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4641559.svg)](https://doi.org/10.5281/zenodo.4641559) [![arXiv](https://img.shields.io/badge/arXiv-2103.12670-%3CCOLOR%3E.svg)](https://arxiv.org/abs/2103.12670)
 
 Bruno Henrique Pachulski Camara <sup>1</sup>, <sup>2</sup>, <br />
 Marco Aure ́lio Graciotto Silva <sup>3</sup>, <br />
