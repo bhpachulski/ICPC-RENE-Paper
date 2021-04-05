@@ -1,0 +1,158 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     _home_supun_Documents_wekafiles_dataset2_Tokens_arff_docs__home_supun_Documents_wekafiles_dataset2_LOC-weka.filters.unsupervised.attribute.Remove-R2_java_keywords.arff-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    2804
+Attributes:   59
+              loc
+              abstract_keyword
+              assert_keyword
+              boolean_keyword
+              break_keyword
+              byte_keyword
+              case_keyword
+              catch_keyword
+              char_keyword
+              class_keyword
+              continue_keyword
+              default_keyword
+              do_keyword
+              double_keyword
+              else_keyword
+              enum_keyword
+              exports_keyword
+              extends_keyword
+              final_keyword
+              finally_keyword
+              float_keyword
+              for_keyword
+              if_keyword
+              implements_keyword
+              import_keyword
+              instanceof_keyword
+              int_keyword
+              interface_keyword
+              long_keyword
+              modules_keyword
+              native_keyword
+              new_keyword
+              package_keyword
+              private_keyword
+              protected_keyword
+              public_keyword
+              requires_keyword
+              return_keyword
+              short_keyword
+              static_keyword
+              strictfp_keyword
+              super_keyword
+              switch_keyword
+              synchronized_keyword
+              this_keyword
+              throw_keyword
+              throws_keyword
+              transient_keyword
+              try_keyword
+              void_keyword
+              volatile_keyword
+              while_keyword
+              true_keyword
+              null_keyword
+              false_keyword
+              const_keyword
+              goto_keyword
+              keywordcount
+              @@class@@
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Non_Flakey, Flakey
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.8591 * (normalized) loc
+ +       0.413  * (normalized) assert_keyword
+ +       1.9149 * (normalized) boolean_keyword
+ +      -1      * (normalized) byte_keyword
+ +       1.9855 * (normalized) catch_keyword
+ +      -1.4034 * (normalized) class_keyword
+ +      -1.6056 * (normalized) default_keyword
+ +      -0.5    * (normalized) do_keyword
+ +      -1.3113 * (normalized) double_keyword
+ +      -1.3998 * (normalized) else_keyword
+ +      -2      * (normalized) extends_keyword
+ +      -6.387  * (normalized) final_keyword
+ +       1.0045 * (normalized) finally_keyword
+ +      -0.5    * (normalized) float_keyword
+ +      -0.8762 * (normalized) for_keyword
+ +       0.8091 * (normalized) if_keyword
+ +      -0.0662 * (normalized) implements_keyword
+ +      -1.3497 * (normalized) instanceof_keyword
+ +       1.4936 * (normalized) int_keyword
+ +       0.9402 * (normalized) long_keyword
+ +       0.4822 * (normalized) modules_keyword
+ +      -0.4812 * (normalized) native_keyword
+ +       0.2824 * (normalized) new_keyword
+ +      -0.0919 * (normalized) private_keyword
+ +       0.8653 * (normalized) protected_keyword
+ +      -2.7045 * (normalized) public_keyword
+ +       0.5777 * (normalized) requires_keyword
+ +      -1.4475 * (normalized) return_keyword
+ +       2.0401 * (normalized) short_keyword
+ +      -1      * (normalized) static_keyword
+ +      -0.5493 * (normalized) synchronized_keyword
+ +      -0.089  * (normalized) this_keyword
+ +      -0.1052 * (normalized) throw_keyword
+ +       9.3477 * (normalized) throws_keyword
+ +       1.1231 * (normalized) try_keyword
+ +      -1.0231 * (normalized) void_keyword
+ +      -0.0662 * (normalized) volatile_keyword
+ +      -0.1475 * (normalized) while_keyword
+ +      -0.3674 * (normalized) true_keyword
+ +      -0.6743 * (normalized) null_keyword
+ +      -0.4862 * (normalized) false_keyword
+ +      -0.4732 * (normalized) keywordcount
+ -       0.6759
+
+Number of kernel evaluations: 182113 (69.306% cached)
+
+
+
+Time taken to build model: 2.55 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.12 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         385               68.6275 %
+Incorrectly Classified Instances       176               31.3725 %
+Kappa statistic                          0.3696
+Mean absolute error                      0.3137
+Root mean squared error                  0.5601
+Relative absolute error                 62.7427 %
+Root relative squared error            112.0175 %
+Total Number of Instances              561     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.498    0.130    0.789      0.498    0.611      0.397    0.684     0.641     Non_Flakey
+                 0.870    0.502    0.640      0.870    0.737      0.397    0.684     0.622     Flakey
+Weighted Avg.    0.686    0.318    0.713      0.686    0.675      0.397    0.684     0.631     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 138 139 |   a = Non_Flakey
+  37 247 |   b = Flakey
+

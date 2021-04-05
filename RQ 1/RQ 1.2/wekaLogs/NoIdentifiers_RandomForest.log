@@ -1,0 +1,105 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     _home_supun_Documents_wekafiles_dataset2_Tokens_arff_docs__home_supun_Documents_wekafiles_dataset2_LOC-weka.filters.unsupervised.attribute.Remove-R2_java_keywords.arff-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    2804
+Attributes:   59
+              loc
+              abstract_keyword
+              assert_keyword
+              boolean_keyword
+              break_keyword
+              byte_keyword
+              case_keyword
+              catch_keyword
+              char_keyword
+              class_keyword
+              continue_keyword
+              default_keyword
+              do_keyword
+              double_keyword
+              else_keyword
+              enum_keyword
+              exports_keyword
+              extends_keyword
+              final_keyword
+              finally_keyword
+              float_keyword
+              for_keyword
+              if_keyword
+              implements_keyword
+              import_keyword
+              instanceof_keyword
+              int_keyword
+              interface_keyword
+              long_keyword
+              modules_keyword
+              native_keyword
+              new_keyword
+              package_keyword
+              private_keyword
+              protected_keyword
+              public_keyword
+              requires_keyword
+              return_keyword
+              short_keyword
+              static_keyword
+              strictfp_keyword
+              super_keyword
+              switch_keyword
+              synchronized_keyword
+              this_keyword
+              throw_keyword
+              throws_keyword
+              transient_keyword
+              try_keyword
+              void_keyword
+              volatile_keyword
+              while_keyword
+              true_keyword
+              null_keyword
+              false_keyword
+              const_keyword
+              goto_keyword
+              keywordcount
+              @@class@@
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 14.11 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.55 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         436               77.7184 %
+Incorrectly Classified Instances       125               22.2816 %
+Kappa statistic                          0.5539
+Mean absolute error                      0.2882
+Root mean squared error                  0.3952
+Relative absolute error                 57.6362 %
+Root relative squared error             79.0421 %
+Total Number of Instances              561     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.736    0.183    0.797      0.736    0.765      0.555    0.853     0.863     Non_Flakey
+                 0.817    0.264    0.761      0.817    0.788      0.555    0.853     0.832     Flakey
+Weighted Avg.    0.777    0.224    0.779      0.777    0.777      0.555    0.853     0.847     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 204  73 |   a = Non_Flakey
+  52 232 |   b = Flakey
+
