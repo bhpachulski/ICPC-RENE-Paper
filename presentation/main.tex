@@ -1,0 +1,196 @@
+\documentclass[aspectratio=169]{beamer}
+
+%\usepackage[brazil]{babel} % Set the environment to pt-br
+
+%Theme options (allow multiple options):
+
+% Research Group (researchgroup) options: gres (default), cbio, or both
+% How to use: \usetheme[researchgroup=cbio]{CbioGres}
+
+% Color theme (colortheme): dark, blue, lightblue, green
+% How to use: \usetheme[colortheme=blue]{CbioGres}
+
+\usetheme[colortheme=lightblue,researchgroup=both]{CbioGres}
+
+\usepackage{blindtext}
+\usepackage{moresize}
+
+\usepackage[ruled,onelanguage]{algorithm2e}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\hypersetup{pdfpagemode=FullScreen}
+\bibliography{refs}
+
+\usepackage{pgfpages}
+%\setbeameroption{hide notes} % Only slides
+%\setbeameroption{show only notes} % Only notes
+\setbeameroption{show notes on second screen=right} % Both
+\setbeamertemplate{note page}{\pagecolor{yellow!5}\vfill\insertnote\vfill}
+\usepackage{palatino}
+
+\title{What is the Vocabulary of Flaky Tests? \\An Extended Replication}
+
+\author{Bruno Henrique Pachulski Camara$^{1,2}$,
+		Marco Aurélio Graciotto Silva$^{3}$,
+		Andre T. Endo$^{4}$,
+		Silvia Regina Vergilio$^{2}$}
+\institute{
+    $^{1}$\textit{Centro Universitário Integrado}, Campo Mourão, PR, Brazil \\
+    $^{2}$\textit{Department of Computer Science}, \textit{Federal University of Paraná}, Curitiba, PR, Brazil \\
+    $^{3}$\textit{Department of Computing}, \textit{Federal University of Technology - Paraná}, \\Campo Mourão, PR, Brazil \\ 
+    $^{4}$\textit{Department of Computing}, \textit{Federal University of Technology - Paraná}, \\Cornélio Procópio, PR, Brazil\\ 
+}
+
+\date{\today}
+
+\subtitle{\tiny{ICPC, May 18--21, 2021, Madrid, Spain}}
+
+\setcounter{showSlideNumbers}{1}
+
+\begin{document}
+
+	% 30's
+	\frame{
+		\titlepage
+
+		\note[item] {Hello, my name is Bruno. I'm from Universidade Federal do Paraná and Centro Universitário Integrado from Brazil. And gonna present a paper "What is the Vocabulary of Flaky Tests? An Extended Replication".}
+		\note[item] {This is a work guided by my advisors, Marco Graciotto, André Endo and Silvia Vergilho. }
+	
+	}
+
+	
+	\startprogressbar
+
+	% 55's
+	\begin{frame}		
+		\frametitle{\large Introduction}
+
+		\begin{enumerate}
+			\item Flaky tests \\ \textcolor{ExecusharesGrey}{\footnotesize\hspace{1em} Tests who pass or fail when executed in the same software version}
+			\item Is it possible to compile the vocabulary of the flaky tests?  \\ \textcolor{ExecusharesGrey}{\footnotesize\hspace{1em} What is the Vocabulary of Flaky Tests? \cite{Pinto-etal:2020}}
+			\item Evaluation of Intra- and Inter-Project prediction \\ \textcolor{ExecusharesGrey}{\footnotesize\hspace{1em} Can we predict flaky tests with the tained classifiers?}
+		\end{enumerate}
+
+		\note[item] {Flaky tests are a recurring issue hurting the adoption of automated tests. A test case that may pass or fail non-deterministically in the same production code.}
+		\note[item] {So, a promising approach is to collect static data of automated tests and use them to predict their flakiness. Is possible to use test code as a feature? Pinto et Al. proposed it and our first goal is to replicate the training and prediction with the same dataset but with the different Machine Learning platforms and algorithms. }
+		\note[item] {Then, we propose an extension to validate the trained model against another dataset to validate the effectiveness of the model on identify flaky tests Intra- and Inter-projects. }
+
+	\end{frame}	
+	
+	%Sections
+	\section{Replication}
+	
+		\begin{frame}
+
+			\frametitle{\large RQ$_1$ -- Can we obtain similar results by using other ML algorithms or the same algorithms with distinct implementations?}
+
+			\begin{enumerate}
+
+				\item 
+
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+		\begin{frame}
+
+			\frametitle{\large RQ$_{1.1}$ -- How accurately can we predict test flakiness based on source code identifiers in the test cases?}
+
+			\begin{enumerate}
+
+				\item 
+				
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+		\begin{frame}
+
+			\frametitle{\large RQ$_{1.2}$ -- What value of different features add to the classifier?}
+
+			\begin{enumerate}
+
+				\item 
+				
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+		\begin{frame}
+
+			\frametitle{\large RQ$_{1.3}$ -- Which test code identifiers are most strongly associated with test flakiness?}
+
+			\begin{enumerate}
+
+				\item 
+				
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+	\section{Extension}
+	
+		\begin{frame}
+
+			\frametitle{\large RQ$_2$ -- Are the results valid for other datasets including different projects?}
+
+			\begin{enumerate}
+
+				\item 
+
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+		\begin{frame}
+
+			\frametitle{\large RQ$_{2.1}$ -- Can a trained classifier be successfully applied within the same projects (i.e., intra-project)?}
+
+			\begin{enumerate}
+
+				\item 
+
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+		\begin{frame}
+
+			\frametitle{\large RQ$_{2.2}$ -- Can a trained classifier be successfully applied to other projects (i.e., inter-projects)?}
+
+			\begin{enumerate}
+
+				\item 
+
+			\end{enumerate}
+
+			\note[item] {testes}
+
+		\end{frame}
+
+
+		
+	\section{Conclusions}
+
+		\begin{frame}
+			\frametitle{\large Closing Thoughts}
+			
+
+			\note[item] {testes}
+
+		\end{frame}
+	
+		\frame{\acknowledgmentpage}
+
+\end{document}
