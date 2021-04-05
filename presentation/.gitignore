@@ -1,9 +1,0 @@
-# LaTeX temporary files
-*.aux
-*.log
-*.toc
-*run.xml* 
-*.snm* 
-*blx.bib* 
-*.nav*
-*.out
